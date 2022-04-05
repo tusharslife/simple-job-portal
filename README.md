@@ -1,6 +1,5 @@
-# job-portal
+# Simple Job Portal
 This project is made PHP using Laravel framework.
-
 
 # Installations
 
@@ -12,7 +11,8 @@ https://github.com/tusharslife/job-portal.git
 
 2. Set the basic config
 Edit example.env to .env
-Put your db username and password here with DB_DATABASE=jobportal
+Put your db username and password here with DB_DATABASE=jobportal <br />
+'''
 
     DB_CONNECTION=mysql <br />
     DB_HOST=127.0.0.1 <br />
