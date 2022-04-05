@@ -1,7 +1,7 @@
 # Simple Job Portal
 This project is made PHP using Laravel framework.
 
-# Installations
+# Installation
 
 Note: If you receive and error while installation below
 run composer update instead of composer install also run php artisan key:generate
