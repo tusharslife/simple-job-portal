@@ -1,5 +1,5 @@
 # Simple Job Portal
-This project is made PHP using Laravel framework.
+This project is made in PHP using Laravel framework.
 
 # Installation
 
