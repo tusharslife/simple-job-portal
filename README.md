@@ -11,14 +11,22 @@ run composer update instead of composer install also run php artisan key:generat
 
 #### 2. Set the basic config
 Edit example.env to .env <br />
-Put your db username and password here with DB_DATABASE=jobportal <br />
+Put your db username and password here with DB_DATABASE=vdirect <br />
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=jobportal
+    DB_DATABASE=vdirect
     DB_USERNAME=root
     DB_PASSWORD=
+    
+###### Set Mail details (Can be skipped)
+    MAIL_DRIVER=smtp
+    MAIL_HOST=[YOUR HOSTNAME example:mtp.googlemail.com]
+    MAIL_PORT=[YOUR MAIL PORT]
+    MAIL_USERNAME=[YOUR USERNAME]
+    MAIL_PASSWORD=[YOUR PASSWORD]
+    MAIL_ENCRYPTION=[YOUR MAIL ENCRYPT METHOD]
 
 #### 3. Install Dependencies
     composer install
