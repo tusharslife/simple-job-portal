@@ -1,6 +1,12 @@
 # Simple Job Portal
-Job Portal project is made in PHP using Laravel framework.
-
+This project is build in PHP using Laravel framework. It serves as a platform between job seeker and provider.
+#### Features
+1. Company profile
+2. Job seeker profile
+3. Applied jobs
+4. List jobs
+5. Apply for jobs
+6. Reset password via e-mail
 # Installation
 
 Note: If you receive and error while installation below
