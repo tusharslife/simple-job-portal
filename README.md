@@ -1,5 +1,5 @@
 # Simple Job Portal
-This project is build in PHP using Laravel framework. It serves as a platform between job seeker and provider.
+This project is built in PHP using Laravel framework. It serves as a platform between job seeker and provider.
 #### Features
 1. Company profile
 2. Job seeker profile
@@ -25,6 +25,14 @@ Put your db username and password here with DB_DATABASE=vdirect <br />
     DB_DATABASE=vdirect
     DB_USERNAME=root
     DB_PASSWORD=
+    
+    ###### Set Mail details (Can be skipped)
+    MAIL_DRIVER=smtp
+    MAIL_HOST=[YOUR HOSTNAME example:mtp.googlemail.com]
+    MAIL_PORT=[YOUR MAIL PORT]
+    MAIL_USERNAME=[YOUR USERNAME]
+    MAIL_PASSWORD=[YOUR PASSWORD]
+    MAIL_ENCRYPTION=[YOUR MAIL ENCRYPT METHOD]
 
 #### 3. Install Dependencies
     composer install
