@@ -26,7 +26,7 @@ Put your db username and password here with DB_DATABASE=vdirect <br />
     DB_USERNAME=root
     DB_PASSWORD=
     
-    ###### Set Mail details (Can be skipped)
+  ###### Set Mail details (Can be skipped)
     MAIL_DRIVER=smtp
     MAIL_HOST=[YOUR HOSTNAME example:mtp.googlemail.com]
     MAIL_PORT=[YOUR MAIL PORT]
